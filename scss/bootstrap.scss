@@ -1,0 +1,82 @@
+$font-family-sans-serif: "Poppins", sans-serif;
+
+$primary: #fe6b2a;
+$secondary: #35353a;
+$dark: #000;
+$body-color: #fff;
+$body-bg: #0c0c0e;
+
+$spacer: 1rem;
+$spacers: (
+	0: $spacer * 0,
+	1: $spacer * 0.25,
+	2: $spacer * 0.5,
+	3: $spacer * 1,
+	4: $spacer * 1.5,
+	5: $spacer * 3,
+	6: $spacer * 4.5,
+	7: $spacer * 6,
+	8: $spacer * 7.5,
+	9: $spacer * 9,
+) !default;
+
+$font-sizes: (
+	1: 5rem,
+	2: 4rem,
+	3: 3.5rem,
+	4: 3rem,
+	5: 2.5rem,
+	6: 2rem,
+	7: 1.25rem,
+	8: 1rem,
+	9: 0.8rem,
+) !default;
+
+$grid-breakpoints: (
+	xs: 0,
+	ssm: 450px,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px,
+	xxl: 1400px,
+);
+
+$btn-padding-y: 0.7rem;
+$btn-padding-x: 2rem;
+$btn-padding-y-sm: 0.4rem;
+$btn-padding-x-sm: 1rem;
+$btn-padding-y-lg: 0.9rem;
+$btn-padding-x-lg: 2.5rem;
+
+$btn-border-radius: 9999px;
+$btn-border-radius-sm: 9999px;
+$btn-border-radius-lg: 9999px;
+
+$enable-negative-margins: true;
+
+$line-height-lg: 1.8;
+
+$navbar-dark-color: #f2f2f2;
+$navbar-dark-hover-color: $primary;
+$navbar-toggler-border-radius: 0;
+$navbar-toggler-focus-width: 0;
+$navbar-dark-toggler-border-color: none;
+$navbar-toggler-padding-x: 0.25rem;
+$navbar-toggler-padding-y: 0.25rem;
+
+$offcanvas-horizontal-width: 100vw;
+$offcanvas-backdrop-bg: none;
+
+$input-border-radius: 0px;
+$input-border-radius-sm: 0px;
+$input-border-radius-lg: 0px;
+$input-border-color: #666;
+$input-padding-x: 1rem;
+$input-padding-y: 1rem;
+$input-placeholder-color: #666;
+$form-select-indicator-color: #888;
+
+$badge-padding-y: 0.6em;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
